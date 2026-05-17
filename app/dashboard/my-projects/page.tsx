@@ -1,5 +1,5 @@
 import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 import { getUserSavedProjects } from "@/lib/neon";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
