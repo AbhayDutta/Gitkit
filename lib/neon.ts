@@ -47,6 +47,11 @@ async function initializeDatabaseSchema() {
       )
     `;
 
+    // Ensure password_hash column exists for Credentials login
+    await sql`
+      ALTER TABLE users ADD COLUMN IF NOT EXISTS password_hash TEXT
+    `;
+
     // Create repos table
     await sql`
       CREATE TABLE IF NOT EXISTS repos (
@@ -480,6 +485,41 @@ export async function getUserSavedProjects(githubId: string) {
   } catch (error) {
     console.error('Error fetching user saved projects:', error);
     return [];
+  }
+}
+
+/**
+ * Get user record by their unique email address
+ */
+export async function getUserByEmail(email: string) {
+  try {
+    const result = await sql`
+      SELECT * FROM users 
+      WHERE github_id = ${email} 
+      LIMIT 1
+    `;
+    if (result.length === 0) return null;
+    return result[0];
+  } catch (error) {
+    console.error('Error fetching user by email:', error);
+    return null;
+  }
+}
+
+/**
+ * Create a new user with password hash
+ */
+export async function createUserWithPassword(email: string, passwordHash: string) {
+  try {
+    const result = await sql`
+      INSERT INTO users (github_id, password_hash)
+      VALUES (${email}, ${passwordHash})
+      RETURNING *
+    `;
+    return result[0];
+  } catch (error) {
+    console.error('Error creating user with password:', error);
+    throw error;
   }
 }
 
