@@ -248,59 +248,26 @@ export async function fetchRepoFiles(
       throw new Error('Could not resolve repository root tree');
     }
 
+    onProgress?.(0, MAX_REPO_FILES);
+
+    const data = await fetchGitHubJson<GitHubTreeResponse>(
+      `https://api.github.com/repos/${owner}/${repo}/git/trees/${rootTreeSha}?recursive=1`,
+      token
+    );
+
     const files: GitHubFile[] = [];
-    const queue: Array<{ url: string; path: string; depth: number }> = [
-      {
-        url: `https://api.github.com/repos/${owner}/${repo}/git/trees/${rootTreeSha}`,
-        path: '',
-        depth: 0,
-      },
-    ];
-    const visitedTrees = new Set<string>();
-    let scannedDirectories = 0;
+    for (const item of data.tree) {
+      if (shouldSkipPath(item.path)) continue;
 
-    while (
-      queue.length > 0 &&
-      scannedDirectories < MAX_TREE_DIRECTORIES &&
-      files.length < MAX_REPO_FILES
-    ) {
-      queue.sort((a, b) => directoryPriority(b.path) - directoryPriority(a.path));
-      const current = queue.shift()!;
-
-      if (visitedTrees.has(current.url)) continue;
-      visitedTrees.add(current.url);
-
-      let data: GitHubTreeResponse;
-      try {
-        data = await fetchGitHubJson<GitHubTreeResponse>(current.url, token);
-      } catch (error) {
-        if (current.depth === 0) throw error;
-        console.warn(`Failed to scan ${current.path || 'root'}:`, error);
-        continue;
-      }
-
-      scannedDirectories += 1;
-
-      for (const item of data.tree) {
-        const fullPath = current.path ? `${current.path}/${item.path}` : item.path;
-        if (shouldSkipPath(fullPath)) continue;
-
-        if (item.type === 'blob') {
-          const file = toGitHubFile(item, fullPath);
-          if (shouldAnalyzeFile(file)) {
-            files.push(file);
-          }
-        } else if (item.type === 'tree' && current.depth < MAX_TREE_DEPTH) {
-          queue.push({
-            url: item.url,
-            path: fullPath,
-            depth: current.depth + 1,
-          });
+      if (item.type === 'blob') {
+        const file = toGitHubFile(item, item.path);
+        if (shouldAnalyzeFile(file)) {
+          files.push(file);
         }
       }
-
-      onProgress?.(Math.min(files.length, MAX_REPO_FILES), MAX_REPO_FILES);
     }
+
+    onProgress?.(Math.min(files.length, MAX_REPO_FILES), MAX_REPO_FILES);
 
     return files
       .sort((a, b) => filePriority(b) - filePriority(a))
