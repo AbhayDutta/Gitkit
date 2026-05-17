@@ -1,10 +1,8 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
 import { Sparkles, ExternalLink, LogIn, LogOut, FolderHeart } from 'lucide-react';
 import { useSession, signOut } from 'next-auth/react';
-import AuthModal from './AuthModal';
 
 interface NavbarProps {
   githubHref?: string;
@@ -16,7 +14,6 @@ export default function Navbar({
   githubLabel = 'GitHub',
 }: NavbarProps) {
   const { data: session } = useSession();
-  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
   return (
     <nav className="sticky top-0 z-50 glass-dark border-b border-purple-500/10">
@@ -59,18 +56,17 @@ export default function Navbar({
                 <ExternalLink className="w-5 h-5" />
                 <span className="hidden sm:inline">{githubLabel}</span>
               </a>
-              <button
-                onClick={() => setIsAuthModalOpen(true)}
-                className="flex items-center gap-2 px-4 py-2 rounded-lg bg-purple-600 text-white hover:bg-purple-500 transition-all"
+              <Link
+                href="/login"
+                className="flex items-center gap-2 px-4 py-2 rounded-lg bg-purple-600 text-white hover:bg-purple-500 transition-all font-medium"
               >
                 <LogIn className="w-5 h-5" />
                 <span className="hidden sm:inline">Sign In</span>
-              </button>
+              </Link>
             </>
           )}
         </div>
       </div>
-      <AuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} />
     </nav>
   );
 }
