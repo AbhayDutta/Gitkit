@@ -1,0 +1,358 @@
+
+> predict-a-bug@0.1.0 dev
+> next dev -p 3000
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 6.1s (1371 modules)
+ GET / 200 in 7855ms
+ ✓ Compiled in 3.3s (1348 modules)
+ ✓ Compiled /api/analyze in 212ms (706 modules)
+Database initialized successfully
+ POST /api/analyze 202 in 9312ms
+ ✓ Compiled /api/progress/[repoId] in 109ms (708 modules)
+ GET /api/progress/6 200 in 861ms
+ GET /api/progress/6 200 in 14ms
+ GET /api/progress/6 200 in 12ms
+ GET /api/progress/6 200 in 13ms
+ GET /api/progress/6 200 in 14ms
+ GET /api/progress/6 200 in 12ms
+ GET /api/progress/6 200 in 13ms
+ GET /api/progress/6 200 in 11ms
+ GET /api/progress/6 200 in 12ms
+Database initialized successfully
+ POST /api/analyze 202 in 4924ms
+ GET /api/progress/7 200 in 332ms
+ GET /api/progress/6 200 in 12ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/6 200 in 18ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/6 200 in 12ms
+ GET /api/progress/7 200 in 15ms
+ GET /api/progress/7 200 in 12ms
+Inserted 80 file scores for repo 6
+ GET /api/progress/7 200 in 13ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 13ms
+ GET /api/progress/7 200 in 14ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 20ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 13ms
+ GET /api/progress/7 200 in 24ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 11ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/6 200 in 14ms
+ GET /api/progress/7 200 in 11ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 26ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 10ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 11ms
+ GET /api/progress/7 200 in 15ms
+ GET /api/progress/7 200 in 11ms
+ GET /api/progress/7 200 in 11ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 11ms
+ GET /api/progress/7 200 in 11ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 13ms
+ GET /api/progress/7 200 in 15ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 13ms
+ GET /api/progress/7 200 in 11ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 11ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 11ms
+ GET /api/progress/7 200 in 12ms
+ GET /api/progress/7 200 in 13ms
+ ✓ Compiled in 425ms (1391 modules)
+ GET /api/progress/7 200 in 2362ms
+ GET /api/progress/7 200 in 327ms
+ GET /api/progress/7 200 in 333ms
+ GET /api/progress/7 200 in 334ms
+ GET /api/progress/7 200 in 341ms
+ GET /api/progress/7 200 in 322ms
+ GET /api/progress/7 200 in 334ms
+ GET /api/progress/7 200 in 331ms
+ ✓ Compiled in 157ms (689 modules)
+ GET /api/progress/7 200 in 320ms
+ GET /api/progress/7 200 in 334ms
+ GET /api/progress/7 200 in 333ms
+ ✓ Compiled in 488ms (1391 modules)
+ GET /api/progress/7 200 in 384ms
+ ✓ Compiled in 160ms (689 modules)
+ ✓ Compiled in 146ms (689 modules)
+ GET /api/progress/6 200 in 2299ms
+ ✓ Compiled in 205ms (702 modules)
+ ✓ Compiled in 967ms (1391 modules)
+ ✓ Compiled /api/analyze in 213ms (707 modules)
+Database initialized successfully
+ POST /api/analyze 202 in 7130ms
+ GET /api/progress/8 200 in 341ms
+ GET /api/progress/8 200 in 324ms
+ GET /api/progress/8 200 in 328ms
+ GET /api/progress/8 200 in 363ms
+ GET /api/progress/8 200 in 338ms
+ GET /api/progress/8 200 in 332ms
+ GET /api/progress/8 200 in 342ms
+ GET /api/progress/8 200 in 353ms
+ GET /api/progress/8 200 in 329ms
+ GET /api/progress/8 200 in 332ms
+Inserted 80 file scores for repo 8
+ GET /api/progress/8 200 in 332ms
+ GET / 200 in 128ms
+ GET / 200 in 88ms
+ POST /api/analyze 202 in 4934ms
+ GET /api/progress/9 200 in 327ms
+ GET /api/progress/9 200 in 339ms
+ GET /api/progress/9 200 in 338ms
+ GET /api/progress/9 200 in 331ms
+ GET /api/progress/9 200 in 330ms
+ POST /api/analyze 202 in 4880ms
+ GET /api/progress/10 200 in 330ms
+ GET /api/progress/10 200 in 325ms
+ GET /api/progress/10 200 in 340ms
+ GET /api/progress/10 200 in 327ms
+ GET /api/progress/10 200 in 334ms
+ GET /api/progress/10 200 in 336ms
+ GET /api/progress/10 200 in 343ms
+ GET /api/progress/10 200 in 333ms
+ GET /api/progress/10 200 in 337ms
+ GET /api/progress/10 200 in 327ms
+ GET /api/progress/10 200 in 332ms
+Inserted 49 file scores for repo 10
+ GET /api/progress/10 200 in 327ms
+ ○ Compiling /dashboard/[repoId] ...
+ ✓ Compiled /dashboard/[repoId] in 6.9s (2885 modules)
+ ✓ Compiled /api/scores/[repoId] in 455ms (1496 modules)
+ GET /api/scores/10 200 in 7295ms
+ GET /api/scores/10 200 in 7304ms
+ ✓ Compiled in 579ms (2848 modules)
+ ✓ Compiled in 490ms (2862 modules)
+ ✓ Compiled /api/scores/[repoId] in 219ms (1489 modules)
+ ✓ Compiled (1491 modules)
+ GET /api/progress/10 200 in 3964ms
+ GET /api/scores/10 200 in 6187ms
+ ✓ Compiled /api/analyze in 493ms (1492 modules)
+Database initialized successfully
+ POST /api/analyze 202 in 7737ms
+ ✓ Compiled /api/progress/[repoId] in 238ms (1494 modules)
+ GET /api/progress/11 200 in 646ms
+ GET /api/progress/11 200 in 353ms
+ GET /api/progress/11 200 in 344ms
+ GET /api/progress/11 200 in 335ms
+ GET /api/progress/11 200 in 336ms
+ GET /api/progress/11 200 in 346ms
+ GET /api/progress/11 200 in 337ms
+ GET /api/progress/11 200 in 333ms
+ GET /api/progress/11 200 in 437ms
+ GET /api/progress/11 200 in 371ms
+ GET /api/progress/11 200 in 390ms
+Inserted 49 file scores for repo 11
+ GET /api/progress/11 200 in 377ms
+ GET /api/progress/11 200 in 372ms
+ ✓ Compiled /api/scores/[repoId] in 219ms (1496 modules)
+ GET /api/scores/11 200 in 3267ms
+ GET /api/scores/11 200 in 5189ms
+ GET /dashboard/11 200 in 478ms
+ GET /api/scores/11 200 in 4944ms
+ GET /api/scores/11 200 in 6860ms
+ ✓ Compiled in 799ms (1405 modules)
+ GET /dashboard/11 200 in 111ms
+ ✓ Compiled in 1834ms (2848 modules)
+ ✓ Compiled in 954ms (2391 modules)
+ ✓ Compiled in 2.2s (2391 modules)
+ ✓ Compiled in 967ms (2391 modules)
+ ○ Compiling /api/export/[repoId] ...
+ ✓ Compiled /api/export/[repoId] in 2.9s (1488 modules)
+ GET /api/export/11?format=pdf 200 in 8236ms
+ GET /api/export/11?format=csv 200 in 8006ms
+ GET /dashboard/11 200 in 2379ms
+ GET /dashboard/11 200 in 173ms
+ ○ Compiling /api/scores/[repoId] ...
+ ✓ Compiled /api/scores/[repoId] in 632ms (1219 modules)
+ GET /api/scores/11 200 in 5740ms
+ GET /api/scores/11 200 in 8613ms
+ ✓ Compiled in 1726ms (2423 modules)
+ GET /dashboard/11 200 in 872ms
+ GET /api/scores/11 200 in 8780ms
+ GET /api/scores/11 200 in 9111ms
+ GET /dashboard/11 200 in 123ms
+ GET /api/scores/11 200 in 5097ms
+ GET /api/scores/11 200 in 6993ms
+ ○ Compiling /api/export/[repoId] ...
+ ✓ Compiled /api/export/[repoId] in 724ms (1490 modules)
+ GET /api/export/11?format=csv 200 in 1646ms
+ GET /api/export/11?format=csv 200 in 6156ms
+ ✓ Compiled in 1627ms (2692 modules)
+ GET /dashboard/11 200 in 303ms
+ ✓ Compiled /api/scores/[repoId] in 403ms (1490 modules)
+ GET /api/scores/11 200 in 5839ms
+ GET /api/scores/11 200 in 7767ms
+ GET /api/export/11?format=csv 200 in 1265ms
+ GET /dashboard/11 200 in 270ms
+ GET /api/scores/11 200 in 5899ms
+ GET /api/scores/11 200 in 10187ms
+ GET /api/export/11?format=csv 200 in 735ms
+ GET /api/export/11?format=csv 200 in 7064ms
+ ✓ Compiled in 2.2s (2692 modules)
+ GET /dashboard/11 200 in 300ms
+ ✓ Compiled /api/scores/[repoId] in 517ms (1490 modules)
+ GET /api/scores/11 200 in 6396ms
+ GET /api/scores/11 200 in 9438ms
+ GET /api/export/11?format=csv 200 in 2958ms
+ GET /api/export/11?format=csv 200 in 3426ms
+ GET /dashboard/11 200 in 307ms
+ GET /api/scores/11 200 in 6883ms
+ GET /api/scores/11 200 in 7727ms
+ ✓ Compiled in 972ms (1204 modules)
+ ✓ Compiled in 3.7s (2387 modules)
+ ✓ Compiled in 1165ms (2373 modules)
+ ✓ Compiled in 476ms (1202 modules)
+ ✓ Compiled in 586ms (1202 modules)
+ ○ Compiling /export/[repoId]/csv ...
+ ✓ Compiled /export/[repoId]/csv in 1707ms (2390 modules)
+ GET /export/11/csv 200 in 11834ms
+ ○ Compiling /export/[repoId]/pdf ...
+ ✓ Compiled /export/[repoId]/pdf in 716ms (2394 modules)
+ GET /export/11/pdf 200 in 2077ms
+ GET /dashboard/11 200 in 342ms
+ ✓ Compiled /api/scores/[repoId] in 433ms (1235 modules)
+ GET /api/scores/11 200 in 6308ms
+ GET /api/scores/11 200 in 8075ms
+ GET /?reanalyze=https%3A%2F%2Fgithub.com%2FAbhayDutta%2FWebkit 200 in 170ms
+ GET /export/11/csv 200 in 4617ms
+ GET /dashboard/11 200 in 256ms
+ GET /api/scores/11 200 in 1124ms
+ GET /api/scores/11 200 in 1130ms
+ GET /api/scores/11 200 in 4780ms
+ GET /api/scores/11 200 in 4794ms
+ ○ Compiling /api/export/[repoId] ...
+ ✓ Compiled /api/export/[repoId] in 1231ms (1506 modules)
+ GET /api/export/11?format=pdf 200 in 4337ms
+ GET /api/export/11?format=pdf 200 in 651ms
+ GET /dashboard/11 200 in 552ms
+ GET /api/scores/11 200 in 5523ms
+ GET /api/scores/11 200 in 7623ms
+ GET /dashboard/11 200 in 111ms
+ GET /export/11/pdf 200 in 4627ms
+ GET /export/11/pdf 200 in 2465ms
+ GET /dashboard/11 200 in 59ms
+ GET /export/11/csv 200 in 741ms
+ GET /dashboard/11 200 in 51ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.3s (2397 modules)
+ GET / 404 in 2637ms
+ GET /_next/static/css/app/layout.css?v=1778943924499 404 in 34ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 22ms
+ GET /_next/static/chunks/main-app.js?v=1778943924499 404 in 22ms
+ GET / 200 in 185ms
+ GET /_next/static/css/app/layout.css?v=1778943930342 404 in 33ms
+ GET /_next/static/chunks/main-app.js?v=1778943930342 404 in 40ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 36ms
+ GET /_next/static/chunks/app/page.js 404 in 39ms
+ GET / 200 in 60ms
+ GET /_next/static/css/app/layout.css?v=1778944095729 404 in 33ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 55ms
+ GET /_next/static/chunks/main-app.js?v=1778944095729 404 in 52ms
+ GET /_next/static/chunks/app/page.js 404 in 52ms
+ GET / 200 in 30ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 76ms
+ GET /_next/static/chunks/main-app.js?v=1778944098379 404 in 78ms
+ GET /_next/static/css/app/layout.css?v=1778944098379 404 in 81ms
+ GET /_next/static/chunks/app/page.js 404 in 78ms
+ GET / 200 in 62ms
+ GET /_next/static/css/app/layout.css?v=1778944106325 404 in 32ms
+ GET /_next/static/chunks/main-app.js?v=1778944106325 404 in 29ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 28ms
+ GET /_next/static/chunks/app/page.js 404 in 27ms
+ GET / 200 in 70ms
+ GET /_next/static/css/app/layout.css?v=1778944108954 404 in 22ms
+ GET /_next/static/chunks/main-app.js?v=1778944108954 404 in 35ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 34ms
+ GET /_next/static/chunks/app/page.js 404 in 33ms
+ GET / 200 in 65ms
+   Reload env: .env.local
+ ✓ Compiled in 1175ms (2394 modules)
+ ✓ Compiled in 1837ms (2408 modules)
+ ✓ Compiled in 2.4s (2408 modules)
+ ✓ Compiled in 934ms (2394 modules)
+ ✓ Compiled in 285ms (1203 modules)
+ ✓ Compiled in 1081ms (2489 modules)
+ ✓ Compiled in 676ms (2495 modules)
+ ✓ Compiled in 271ms (1249 modules)
+ ✓ Compiled in 510ms (1249 modules)
+ ✓ Compiled in 949ms (2481 modules)
+ ✓ Compiled in 342ms (1246 modules)
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 1971ms (1484 modules)
+ GET /api/auth/error?error=OAuthSignin 302 in 2671ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 18ms
+ POST /api/auth/signin/github 302 in 19ms
+ GET /api/auth/error?error=OAuthSignin 302 in 9ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 10ms
+ POST /api/auth/signin/github 302 in 15ms
+ GET /api/auth/error?error=OAuthSignin 302 in 8ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 9ms
+ POST /api/auth/signin/github 302 in 11ms
+ GET /api/auth/error?error=OAuthSignin 302 in 9ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 10ms
+ POST /api/auth/signin/github 302 in 15ms
+ GET /api/auth/error?error=OAuthSignin 302 in 9ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 10ms
+ GET /api/auth/error?error=OAuthSignin 302 in 20ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 10ms
+ POST /api/auth/signin/github 302 in 16ms
+ GET /api/auth/error?error=OAuthSignin 302 in 9ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 9ms
+ POST /api/auth/signin/github 302 in 14ms
+ GET /api/auth/error?error=OAuthSignin 302 in 9ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 9ms
+ POST /api/auth/signin/github 302 in 10ms
+ GET /api/auth/error?error=OAuthSignin 302 in 8ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 10ms
+ POST /api/auth/signin/github 302 in 17ms
+ GET /api/auth/error?error=OAuthSignin 302 in 11ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 9ms
+ POST /api/auth/signin/github 302 in 15ms
+ GET /api/auth/error?error=OAuthSignin 302 in 9ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 9ms
+ POST /api/auth/signin/github 302 in 15ms
+ GET /api/auth/error?error=OAuthSignin 302 in 9ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 9ms
+ POST /api/auth/signin/github 302 in 15ms
+ GET /api/auth/error?error=OAuthSignin 302 in 9ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 9ms
+ POST /api/auth/signin/github 302 in 10ms
+ GET /api/auth/error?error=OAuthSignin 302 in 10ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 9ms
+ POST /api/auth/signin/github 302 in 10ms
+ GET /api/auth/error?error=OAuthSignin 302 in 8ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 13ms
+ POST /api/auth/signin/github 302 in 15ms
+ GET /api/auth/error?error=OAuthSignin 302 in 9ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 9ms
+ POST /api/auth/signin/github 302 in 10ms
+ GET /api/auth/error?error=OAuthSignin 302 in 8ms
+ GET /api/auth/signin?error=OAuthSignin 200 in 9ms
+   Reload env: .env.local
+ ✓ Compiled in 981ms (2481 modules)
+   Reload env: .env.local
+ ✓ Compiled in 1036ms (2481 modules)

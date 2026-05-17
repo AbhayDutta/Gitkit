@@ -1,0 +1,690 @@
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\Hackathons\IBM\predict-a-bug\.next\server\app\api'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/scores/[repoId]/route' in D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\Hackathons\IBM\predict-a-bug\.next\server\app\api\scores\[repoId]\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/scores/[repoId]/route' in 'D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/scores/[repoId]/route (expected D:\Hackathons\IBM\predict-a-bug\.next\server\app\api\scores\[repoId]\route.js)
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\utils.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\handle-externals.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/export/[repoId]/route' in D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\Hackathons\IBM\predict-a-bug\.next\server\app\api\export\[repoId]\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/export/[repoId]/route' in 'D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/export/[repoId]/route (expected D:\Hackathons\IBM\predict-a-bug\.next\server\app\api\export\[repoId]\route.js)
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\utils.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\handle-externals.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+ ⨯ Failed to generate static paths for /export/[repoId]/pdf:
+Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- D:\Hackathons\IBM\predict-a-bug\.next\server\webpack-runtime.js
+- D:\Hackathons\IBM\predict-a-bug\.next\server\app\export\[repoId]\pdf\page.js
+- D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require.js
+- D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\load-components.js
+- D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\utils.js
+- D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Hackathons\\IBM\\predict-a-bug\\.next\\server\\webpack-runtime.js',
+    'D:\\Hackathons\\IBM\\predict-a-bug\\.next\\server\\app\\export\\[repoId]\\pdf\\page.js',
+    'D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\Hackathons\IBM\predict-a-bug\.next\server\app\_not-found'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\Hackathons\IBM\predict-a-bug\.next\server\app\_not-found\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in 'D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected D:\Hackathons\IBM\predict-a-bug\.next\server\app\_not-found\page.js)
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\utils.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-app-loader.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-app-loader.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\swc\index.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\swc\index.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/scores/[repoId]/route' in D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\Hackathons\IBM\predict-a-bug\.next\server\app\api\scores\[repoId]\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/scores/[repoId]/route' in 'D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/scores/[repoId]/route (expected D:\Hackathons\IBM\predict-a-bug\.next\server\app\api\scores\[repoId]\route.js)
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\utils.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-app-loader.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-app-loader.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\swc\index.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\swc\index.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/export/[repoId]/route' in D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\Hackathons\IBM\predict-a-bug\.next\server\app\api\export\[repoId]\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/export/[repoId]/route' in 'D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/export/[repoId]/route (expected D:\Hackathons\IBM\predict-a-bug\.next\server\app\api\export\[repoId]\route.js)
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\utils.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-app-loader.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-app-loader.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\swc\index.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\swc\index.js
+<w>  at file dependencies D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs D:\Hackathons\IBM\predict-a-bug\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\Hackathons\IBM\predict-a-bug\.next\cache\webpack\client-development\0.pack.gz_' -> 'D:\Hackathons\IBM\predict-a-bug\.next\cache\webpack\client-development\0.pack.gz'
+[next-auth][warn][NEXTAUTH_URL] 
+https://next-auth.js.org/warnings#nextauth_url
+[next-auth][warn][NO_SECRET] 
+https://next-auth.js.org/warnings#no_secret
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
+[next-auth][error][SIGNIN_OAUTH_ERROR] 
+https://next-auth.js.org/errors#signin_oauth_error client_id is required {
+  error: {
+    message: 'client_id is required',
+    stack: 'TypeError: client_id is required\n' +
+      '    at new BaseClient (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:148:19)\n' +
+      '    at new Client (webpack-internal:///(rsc)/./node_modules/openid-client/lib/client.js:1673:13)\n' +
+      '    at openidClient (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/client.js:24:18)\n' +
+      '    at getAuthorizationUrl (webpack-internal:///(rsc)/./node_modules/next-auth/core/lib/oauth/authorization-url.js:58:49)\n' +
+      '    at Object.signin (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/signin.js:31:60)\n' +
+      '    at AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:230:39)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+      '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+      '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+      '    at async eT.execute (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+      '    at async eT.handle (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+      '    at async doRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+      '    at async cacheEntry.responseCache.get.routeKind (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+      '    at async DevServer.renderToResponseWithComponentsImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+      '    at async DevServer.renderPageComponent (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+      '    at async DevServer.renderToResponseImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+      '    at async DevServer.pipeImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+      '    at async NextNodeServer.handleCatchallRenderRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+      '    at async DevServer.handleRequestImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+      '    at async D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+      '    at async Span.traceAsyncFn (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+      '    at async DevServer.handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+      '    at async invokeRender (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+      '    at async handleRequest (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+      '    at async requestHandlerImpl (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+      '    at async Server.requestListener (D:\\Hackathons\\IBM\\predict-a-bug\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+    name: 'TypeError'
+  },
+  providerId: 'github',
+  message: 'client_id is required'
+}
