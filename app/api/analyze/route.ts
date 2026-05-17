@@ -20,6 +20,7 @@ import {
   upsertAnalysisProgress,
   saveProject,
 } from '@/lib/neon';
+import { waitUntil } from '@vercel/functions';
 
 export const maxDuration = 300;
 
@@ -191,7 +192,7 @@ export async function POST(request: NextRequest) {
       await saveProject((session.user as any).id, repoId);
     }
 
-    void runAnalysis(repoId, owner, repo, githubToken);
+    waitUntil(runAnalysis(repoId, owner, repo, githubToken));
 
     return NextResponse.json(
       { repoId, owner, repo, status: 'started' },
